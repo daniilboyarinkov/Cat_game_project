@@ -1,0 +1,12 @@
+.sun{
+    --sunCoords: 3%;
+}
+
+.cloud {
+    --cloudCoords: 60%;
+}
+
+#scene {
+    --value: 255;
+    --gettingDarker: -35;
+}

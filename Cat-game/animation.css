@@ -1,0 +1,136 @@
+.day-before-animation{
+    display: none;
+    opacity: 0;
+}
+.day-show {
+    display: flex;
+    animation: dayShow 2s ease forwards;
+}
+.day-after-animation {
+    display: flex;
+    opacity: 1;
+}
+@keyframes dayShow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.day-hide {
+    animation: dayHide 2s ease forwards;
+}
+@keyframes dayHide {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.interactive-before-animation{
+    opacity: 0;
+}
+.interactive-show-hide {
+    display: flex;
+    animation: interactiveShowHide 5s linear;
+}
+@keyframes interactiveShowHide {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.sun-go {
+    animation: sunGo 10s linear forwards;
+}
+@keyframes sunGo {
+    from{
+        left: var(--sunCoords);
+    }
+    to{
+        left: calc(var(--sunCoords) + 10%);
+    }
+}
+
+.cloud-go {
+    animation: cloudGo 10s linear forwards;
+}
+@keyframes cloudGo {
+    from{
+        left: var(--cloudCoords);
+    }
+    to{
+        left: calc(var(--cloudCoords) - 10%);
+    }
+}
+.globalCloud-go {
+    display: flex;
+    animation: globalCloudGo 10s linear forwards;
+}
+@keyframes globalCloudGo {
+    from{
+        left: 80%;
+    }
+    to{
+        left: -10%;
+    }
+}
+
+.bird-fly {
+    display: flex;
+    animation: birdFly 10s linear forwards;
+}
+@keyframes birdFly {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 80%;
+    }
+}
+
+
+.night-go {
+    animation: nightGo 20s linear forwards alternate;
+}
+@keyframes nightGo {
+    0% {
+        z-index: 101;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    50% {
+        background-color: black;
+        z-index: 101;
+    }
+    98% {
+        background-color: rgba(0, 0, 0, 0);
+        z-index: 101;
+    }
+    100%{
+        z-index: -100;
+    }
+}
+
+.scene-darker {
+    animation: sceneDarker 10s linear forwards;
+}   
+@keyframes sceneDarker{
+    0% {
+        background: linear-gradient(45deg, rgb(var(--value), var(--value), var(--value)), rgb(0, 0, var(--value)))
+    }
+    100% {
+        background: linear-gradient(45deg, rgb(calc(var(--value) + var(--gettingDarker)), calc(var(--value) + var(--gettingDarker)), calc(var(--value) + var(--gettingDarker))), rgb(0, 0, calc(var(--value) + var(--gettingDarker))))
+    }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="animation.css">
+    <title>Guess where is your cat</title>
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader__row">
+          <div class="preloader__item"></div>
+          <div class="preloader__item"></div>
+        </div>
+      </div>
+
+    <style>
+        .preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    z-index: 1001;
+  }
+  .preloader__row {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+  }
+  .preloader__item {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    background-color: #8b0085;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    animation: preloader-bounce 2s infinite ease-in-out;
+  }
+  .preloader__item:last-child {
+    top: auto;
+    bottom: 0;
+    animation-delay: -1s;
+  }
+  @keyframes preloader-rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes preloader-bounce {
+  
+    0%,
+    100% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1);
+    }
+  }
+  .loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+  }
+  .loaded .preloader {
+    display: none;
+  }
+    </style>
+
+    <div id="boxWrapper">
+        <div id="scene"></div>
+        <div id="night"></div>
+        <div class="day">День № <span id="day-number"></span></div>
+        <div class="interactive"></div>
+
+        <img src="./imgs/room.png" alt="" class="room">
+
+        <img src="./imgs/box.png" alt="" class="boxImg" id="box1">
+        <img src="./imgs/box.png" alt="" class="boxImg" id="box2">
+        <img src="./imgs/box.png" alt="" class="boxImg" id="box3">
+        <img src="./imgs/box.png" alt="" class="boxImg" id="box4">
+        <img src="./imgs/box.png" alt="" class="boxImg" id="box5">
+
+        <img src="./imgs/sun.png" alt="" class="sun">
+        <img src="./imgs/cloud.png" alt="" class="staticCloud">
+        <img src="./imgs/cloud.png" alt="" class="cloud">
+        <img src="./imgs/bird.gif" alt="" class="bird">
+        <img src="./imgs/cloud.png" alt="" class="globalCloud">
+        
+        <button class="rules">Rules</button>
+    </div>
+
+    <script src="Game.js"></script>
+    <script src="Cat.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
