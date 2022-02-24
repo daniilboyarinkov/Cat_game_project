@@ -23,3 +23,7 @@ Here is Russian description for the essence of the game
 Сначала попытайтесь решить задачу самостоятельно, и если зайдёте в тупик — открывайте решение: [Ссылка на решение](https://thecode.media/k1cat)
 
 1️⃣2️⃣3️⃣4️⃣5️⃣
+
+
+**You can see the web version of the project by following the link down below:**
+**https://daniilboyarinkov.github.io/Cat_game_project/Cat-game/**
