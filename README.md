@@ -26,4 +26,4 @@ Here is Russian description for the essence of the game
 
 
 **You can see the web version of the project by following the link down below:**
-**https://daniilboyarinkov.github.io/Cat_game_project/Cat-game/**
+**[Web version of Cat-Game-Project](https://daniilboyarinkov.github.io/Cat_game_project/Cat-game/)**
