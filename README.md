@@ -24,16 +24,19 @@ Here is Russian description for the essence of the game
 
 1️⃣2️⃣3️⃣4️⃣5️⃣
 
-Here are Rules of the game in Russian language:
+### Here are Rules of the game in Russian language:
+
 ![изображение](https://user-images.githubusercontent.com/89917619/156006241-f2d8a028-b6ff-44ee-b6e4-81f8bfcee631.png)
 
-This is the main window of the game proccess:
+### This is the main window of the game proccess:
+
 ![изображение](https://user-images.githubusercontent.com/89917619/156006470-1e2485b4-a976-42a3-b312-30f7a7322f25.png)
 
-Here is how actually the game going:
+### Here is how actually the game going:
 
 
-And if you eventually find a cat then Congrats! 
+### And if you eventually find a cat then Congrats! 
+
 You will get such a result:
 ![изображение](https://user-images.githubusercontent.com/89917619/156008446-64cd5d04-0fbb-4e8f-81ca-abb2c259d49d.png)
 
@@ -42,6 +45,7 @@ If you want u can actually touch it by yourself by following the link down below
 Вы можете также сами потрогать, "пощупать" этот проект, перейдя по ссылке, которую найдёте ниже.
 
 **You can see the web version of the project by following the link down below:**
+
 **[Web version of Cat-Game-Project](https://daniilboyarinkov.github.io/Cat_game_project/Cat-game/)**
 
 In that project I used:
