@@ -36,9 +36,6 @@ Here is Russian description for the essence of the game
 
 ![изображение](https://user-images.githubusercontent.com/89917619/156006470-1e2485b4-a976-42a3-b312-30f7a7322f25.png)
 
-### Here is how actually the game going:
-
-
 ### And if you eventually find a cat then Congrats! 
 
 You will get such a result:
