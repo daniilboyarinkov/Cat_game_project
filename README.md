@@ -6,6 +6,8 @@ Take it easy. That's kind of funny projects aimed on having fun.
 
 Hope you'll like it.
 
+---
+
 5️⃣4️⃣3️⃣2️⃣1️⃣
 
 Here is Russian description for the essence of the game
@@ -24,6 +26,8 @@ Here is Russian description for the essence of the game
 
 1️⃣2️⃣3️⃣4️⃣5️⃣
 
+---
+
 ### Here are Rules of the game in Russian language:
 
 ![изображение](https://user-images.githubusercontent.com/89917619/156006241-f2d8a028-b6ff-44ee-b6e4-81f8bfcee631.png)
@@ -40,6 +44,7 @@ Here is Russian description for the essence of the game
 You will get such a result:
 ![изображение](https://user-images.githubusercontent.com/89917619/156008446-64cd5d04-0fbb-4e8f-81ca-abb2c259d49d.png)
 
+---
 
 If you want u can actually touch it by yourself by following the link down below.
 Вы можете также сами потрогать, "пощупать" этот проект, перейдя по ссылке, которую найдёте ниже.
@@ -48,7 +53,9 @@ If you want u can actually touch it by yourself by following the link down below
 
 **[Web version of Cat-Game-Project](https://daniilboyarinkov.github.io/Cat_game_project/Cat-game/)**
 
-In that project I used:
+---
+
+## In that project I used:
  + Vanilla JavaScript
  + JavaScript OOP basics
  + CSS Animations
