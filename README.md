@@ -62,4 +62,6 @@ If you want u can actually touch it by yourself by following the link down below
  + Kinda basic CSS preloader
  + Technology of deployment on Github Pages
 
+---
+
 > I'm just learning...
