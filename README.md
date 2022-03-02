@@ -44,11 +44,15 @@ You will get such a result:
 ---
 
 If you want u can actually touch it by yourself by following the link down below.
+
 Вы можете также сами потрогать, "пощупать" этот проект, перейдя по ссылке, которую найдёте ниже.
 
 **You can see the web version of the project by following the link down below:**
 
 **[Web version of Cat-Game-Project](https://daniilboyarinkov.github.io/Cat_game_project/Cat-game/)**
+
+---
+P.S. If you use your phone to see my project, it's much better to use it in horizontal mode. 
 
 ---
 
